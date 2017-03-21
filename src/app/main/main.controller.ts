@@ -6,7 +6,8 @@ import 'rxjs/add/operator/catch';
 
 @Component({
   selector: 'main',
-  template: '<h1>Hello world</h1>'
+  templateUrl: 'main.html',
+   styleUrls: ['main.scss'],
 })
 
 export class Main {
